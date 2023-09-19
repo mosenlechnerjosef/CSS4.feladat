@@ -1,0 +1,43 @@
+:root{
+    --magassag: 200px;
+    --szelesseg: 25%;
+    --margo: 15px;
+    --lila: purple;
+    --kek: blue;
+    --vkek: rgb(0, 238, 255);
+    --zold: green;
+    --rozsa: rgb(253, 98, 183);
+    --piros: red;
+    --sarga: yellow;
+    --barna: brown;
+    --hatterszin: white;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.egy, .ketto, .harom, .negy, .ot, .hat, .het, .nyolc {
+    height: var(--magassag);
+    width: var(--szelesseg);
+    margin: var(--margo);
+}
+
+.egy { background-color: var(--lila); }
+.ketto { background-color: var(--kek); }
+.harom { background-color: var(--vkek); }
+.negy { background-color: var(--zold); }
+.ot { background-color: var(--rozsa); }
+.hat { background-color: var(--bor); }
+.het { background-color: var(--sarga); }
+.nyolc { background-color: var(--barna); }
+
+body {
+    background-color: var(--hatterszin);
+}
+
+input[type="range"] {
+    width: 15%;
+    margin: 10px 0;
+}
